@@ -2,6 +2,8 @@
 
 ORINOCO-Lite helps research groups adopt the ORINOCO approach to structured, linked metadata and website generation without needing to run the full ORINOCO infrastructure stack all the time.
 
+For a broader introduction, see our copy of [@jsheunis's Distribits 2026 talk](https://datasets.datalad.org/repronim/ReproTube/DataLad/web/#/video/oF98hdaph1k).
+
 ![ORINOCO self-hosted components](https://hub.psychoinformatics.de/orinoco/artwork/src/branch/main/selfhost_components.svg)
 
 ## What this organization is about
@@ -33,9 +35,9 @@ A development home for reusable ORINOCO-Lite components, including:
 - the specification for `site-specific/` content and metadata layout
 - tooling and apps such as `packages/curation-review-app` for PR-driven metadata curation
 
-### Template repositories
+### [`orinoco-lite-template`](https://github.com/ORINOCO-Lite/orinoco-lite-template)
 
-ORINOCO-Lite templates are intended to help bootstrap new sites quickly while reusing the shared tooling, actions, and conventions developed here.
+The ORINOCO-Lite template helps bootstrap new sites quickly while reusing the shared tooling, actions, and conventions developed here.
 
 ### `site-specific/` repositories
 
@@ -45,7 +47,7 @@ These repositories are meant to follow the same general schemas and concept mode
 
 ## Immediate targets
 
-- [`con-site-specific`](https://github.com/ORINOCO-Lite/con-site-specific) for the Center for Open Neuroscience
+- [`con-site-specific`](https://github.com/ORINOCO-Lite/con-site-specific) for the [Center for Open Neuroscience](https://centerforopenneuroscience.org)
 - `psychoinformatics-site-specific` to help reproduce and demonstrate the Psychoinformatics group website workflow
 - `repronim-site-specific` as an early adopter path for ReproNim
 
@@ -53,16 +55,12 @@ These repositories are meant to follow the same general schemas and concept mode
 
 ORINOCO-Lite puts special emphasis on [STAMPED principles](https://stamped-principles.org), especially:
 
-- **Self-containment**
-- **Tracking**
-- **Actionability**
+- [**Self-containment**](https://examples.stamped-principles.org/stamped_principles/s/)
+- [**Tracking**](https://examples.stamped-principles.org/stamped_principles/s/)
+- [**Actionability**](https://examples.stamped-principles.org/stamped_principles/s/)
 
 The aim is for `site-specific/` repositories to contain the information needed to materialize and serve complete website content from versioned records.
 
 ## Relationship to upstream ORINOCO
 
 This organization may also host forks or mirrors of upstream projects that need fixes or extensions to support the lightweight workflow, including related ORINOCO ecosystem components.
-
-## Follow the effort
-
-If you are interested in knowledge-graph-driven research websites, metadata curation, or GitHub-based scholarly infrastructure, explore the repositories in this organization and follow the ongoing work.
