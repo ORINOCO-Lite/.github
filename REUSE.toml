@@ -1,0 +1,16 @@
+version = 1
+
+# Repository text files and the root license are under Apache-2.0.
+[[annotations]]
+path = ["**/*.md", "LICENSE"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 ORINOCO-Lite Team"
+SPDX-License-Identifier = "Apache-2.0"
+
+# The diagram is reproduced from the upstream ORINOCO artwork repository
+# (https://hub.psychoinformatics.de/orinoco/artwork) under CC BY 4.0.
+[[annotations]]
+path = ["profile/selfhost_components.svg"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Stephan Heunis"
+SPDX-License-Identifier = "CC-BY-4.0"
