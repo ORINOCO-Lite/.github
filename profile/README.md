@@ -41,11 +41,11 @@ ORINOCO-Lite templates are intended to help bootstrap new sites quickly while re
 
 Each deployment keeps its own metadata records and related materials in a dedicated repository, potentially linked into a template-based site via submodules.
 
-These repositories are meant to follow the same general schemas and concepts models while organizing files in a practical filesystem hierarchy.
+These repositories are meant to follow the same general schemas and concept models while organizing files in a practical filesystem hierarchy.
 
 ## Immediate targets
 
-- [`con-site-specific`](https://github.com/orinoCO-Lite/con-site-specific) for the Center for Open Neuroscience
+- [`con-site-specific`](https://github.com/ORINOCO-Lite/con-site-specific) for the Center for Open Neuroscience
 - `psychoinformatics-site-specific` to help reproduce and demonstrate the Psychoinformatics group website workflow
 - `repronim-site-specific` as an early adopter path for ReproNim
 
