@@ -4,7 +4,7 @@ ORINOCO-Lite helps research groups adopt the ORINOCO approach to structured, lin
 
 For a broader introduction, see our copy of [@jsheunis's Distribits 2026 talk](https://datasets.datalad.org/repronim/ReproTube/DataLad/web/#/video/oF98hdaph1k).
 
-![ORINOCO self-hosted components](https://hub.psychoinformatics.de/orinoco/artwork/src/branch/main/selfhost_components.svg)
+[![ORINOCO self-hosted components](./selfhost_components.svg)](https://hub.psychoinformatics.de/orinoco/artwork/src/branch/main/selfhost_components.svg)
 
 ## What this organization is about
 
